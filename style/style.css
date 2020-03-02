@@ -1,0 +1,162 @@
+/*tekst*/
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Sigmar One', cursive;
+
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    color: white;
+
+}
+
+p {
+    max-width: 45em;
+    font-size: 20px;
+    color: white;
+    font-family: 'Asap', sans-serif;
+}
+
+/*Nav bar*/
+
+
+
+/*Links*/
+a { 
+    
+    text-align: center;
+    margin-left: 18em;
+    margin-right: 17em;
+    color: white;
+    background-color: cornflowerblue;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.back {
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: cornflowerblue;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s;
+    background-color: #d53535;
+    border-radius: 20px;
+}
+
+
+
+
+li {
+    color: white;
+    font-family: 'Asap', sans-serif;
+}
+
+/*Body*/
+body {
+    background: rgb(71, 62, 223);
+    background: linear-gradient(90deg, rgba(71, 62, 223, 1) 0%, rgba(161, 74, 74, 1) 53%, rgba(185, 14, 89, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*bron: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats dooe Bryan Downing*/
+}
+
+
+/*pf*/
+.pf {
+    width: 20%;
+}
+
+
+/*Section*/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*article*/
+article {
+    border: 2px;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: white;
+    text-align: ;
+    width: ;
+    padding: 1em;
+    margin: 2em;
+    background: rgb(221, 200, 209);
+    background: radial-gradient(circle, rgba(221, 200, 209, 1) 0%, rgba(120, 141, 166, 1) 0%, rgba(71, 62, 223, 1) 95%);
+    /*margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto;*/
+    /*code van X-Pipes van https://stackoverflow.com/questions/19336849/css-getting-the-article-center*/
+
+}
+
+.kolom {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+/*img*/
+
+
+article img {
+    display: flex;
+    align-content: center;
+    width: 30em;
+    margin: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0.1em solid;
+}
+img {
+    align-content: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web img {
+    width: 50%;
+    margin: 2em;
+}
+
+.web img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+/*video*/
+.webvid {
+    margin-top: 2em;
+}
